@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    margin-left: 50vw;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.vp {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: '  ' Arial, sans-serif;
+}
+
+.arrow {
+    margin-left: 49vw;
+    margin-top: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-1 {
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first {
+    margin-top: 40px;
+    font-size: large;
+}
+
+.first2 {
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.box-2 {
+    background-image: url(images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.box-3 {
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.box-4 {
+    font-size: large;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.h11 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.second {
+    margin-top: 50px
+}
+
+.second2 {
+    margin-top: 50px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+.box-5 {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.third {
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.third2 {
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box-6 {
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.forth {
+    margin-top: 230px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.forth2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.fyb {
+    display: flex;
+    text-align: center;
+    margin: 50px 100px;
+    gap: 40px;
+}
+
+.mpr {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+.pqr {
+    border-radius: 100px;
+}
+
+.wat {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.vat {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.vip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.boxes-1 {
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.boxes-2 {
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.boxes-3 {
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.boxes-4 {
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(0, 255, 255, 0.5);
+    text-align: center;
+}
+
+.pvs {
+    margin-top: 50px;
+    color: rgba(7, 97, 97, 0.308);
+}
+
+a:hover {
+    color: white;
+}
+
+.a {
+    color: rgba(7, 119, 119, 0.623);
+}
+
+ol {
+    display: flex;
+    margin-left: 40vw;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.div {
+    display: flex;
+    margin-left: 45vw;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+i:hover {
+    color: white;
+}
+
+@media (max-width:480px) {
+    header {
+        background-image: url(./images/mobile/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 70vh;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        margin-left: 60vw;
+        gap: 40px;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .box-1 {
+        font-size: larger;
+        margin-top: 30px;
+        margin-left: 70px;
+        margin-right: 40px;
+        gap: 20px;
+    }
+    
+.box-2 {
+    background-image: url(images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.box-3 {
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+    .box-4 {
+        font-size: large;
+        margin-top: 30px;
+        margin-left: 70px;
+        margin-right: 40px;
+    }
+
+    .box-5 {
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .third2 {
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .box-6 {
+        background-image: url(images/desktop/image-photography.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .forth2 {
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .fyb {
+        display: block;
+        text-align: center;
+        margin: 50px 100px;
+        gap: 40px;
+    }
+
+    .vip {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boxes-1 {
+        background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .boxes-2 {
+        background-image: url(images/mobile/image-gallery-orange.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+    }
+
+    .boxes-3 {
+        background-image: url(images/mobile/image-gallery-cone.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+
+    }
+
+    .boxes-4 {
+        background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+    }
+}
